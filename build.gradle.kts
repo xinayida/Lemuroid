@@ -3,7 +3,6 @@ import com.android.build.gradle.BaseExtension
 buildscript {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
     dependencies {
@@ -28,7 +27,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        jcenter()
         mavenLocal()
         maven { setUrl("https://jitpack.io") }
     }
